@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'DMC5Font';
-    src: url('DMC5Font.otf') format('opentype');
+    src: url('../fonts/DMC5Font.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -22,14 +22,14 @@
 
 .logo{
     display: flex;
-    align-items: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     font-family: DMC5Font;
+    cursor: pointer;
 }
 
 .navbar img {
-    height: 100px;
+    height: 80px;
     max-height: 100%;
     padding-left: 5%;
     padding-right: 20px;
@@ -43,12 +43,12 @@
 
 .navbar ul li{
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 16px;
     color: #EAEAEA;
     cursor: pointer;
     transition: color 0.3s;
 }
 
 .navbar ul li:hover {
-    color: #666666;
+    color: #FFD700;
 }
