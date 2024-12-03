@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'futhark';
+    src: url('../fonts/RUNE.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .navbar{
     display: flex;
     align-items: center;
