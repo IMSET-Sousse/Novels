@@ -148,3 +148,36 @@ body {
     margin: 20px auto; /* Centers the line with some spacing */
     width: 80%; /* Adjusts the line width */
 }
+
+.ch-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.ch-images img {
+    width:  100%;
+    object-fit: cover;
+    filter: grayscale(100%); /* Makes the image black and white */
+    transition: filter 0.3s ease-in-out; /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.ch-images img:hover {
+    filter: grayscale(0%); /* Restores the original color on hover */
+    cursor: pointer;
+}
+
+.ch-box {
+    font-family: DMC5;
+    font-size: 24px;
+    border: 2px solid #FFD700; /* Golden border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Space inside the box */
+    text-align: center; /* Centers text and image */
+    margin: 10px; /* Space between boxes */
+    width: fit-content; /* Adjusts the box size to fit content */
+    background-color: rgba(28, 28, 31, 0.8); /* Semi-transparent background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for 3D effect */
+}
