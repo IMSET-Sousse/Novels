@@ -59,3 +59,12 @@
 .navbar ul li:hover {
     color: #FFD700;
 }
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
