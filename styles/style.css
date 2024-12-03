@@ -91,3 +91,12 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.content-box h1{
+ font-family: futhark;
+ font-size: 55px ;
+ color:black;
+ text-shadow: 0 4px 4px #FFD700;   
+}
+.content-box h2 {
+ font-family: 'DMC5';   
+}
