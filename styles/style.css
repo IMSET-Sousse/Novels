@@ -187,3 +187,22 @@ body {
     flex-direction: column; /* Stacks text and image vertically */
     align-items: center; /* Centers content horizontally */
 }
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+    }
+    50% {
+        text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 40px #FFD700, 0 0 60px #FFD700;
+    }
+    100% {
+        text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
+    }
+}
+
+.ch-box p {
+    font-family: DMC5;
+    font-size: 24px;
+    /* color: #FFD700; */
+    animation: glow 2s infinite; /* Applies the glow animation infinitely */
+}
