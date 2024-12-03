@@ -118,3 +118,33 @@ body {
     filter: grayscale(0%); /* Restores the original color on hover */
     cursor: pointer;
 }
+
+.quote-img {
+    width: 60%;
+    cursor: pointer;
+}
+
+.quote {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: DMC5;
+}
+
+.quote h6 {
+    font-family: DMC5;
+    font-size: 50px;
+    color: #FFD700;
+    text-align: center;
+}
+
+.space {
+    margin: 20px;
+}
+
+.fading-line {
+    height: 2px; /* Thickness of the line */
+    background: linear-gradient(to right, transparent, #FFD700, transparent); /* Fades at edges */
+    margin: 20px auto; /* Centers the line with some spacing */
+    width: 80%; /* Adjusts the line width */
+}
