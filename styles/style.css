@@ -79,7 +79,7 @@ body {
 }
 
 .content-box {
-    width: 90%;
+    width: 80%;
     margin: 50px auto;
     background-color: rgba(28, 28, 31, 0.8); /* Semi-transparent background */
     border-radius: 15px; /* Rounded corners */
@@ -104,4 +104,17 @@ body {
 }
 .content-box h3 {
     font-family: DMC5;  
-   }
+}
+
+.images img {
+    width: 20%;
+    margin: 20px;
+    filter: grayscale(100%); /* Makes the image black and white */
+    transition: filter 0.3s ease-in-out; /* Smooth transition for hover effect */
+    cursor: pointer;
+}
+
+.images img:hover {
+    filter: grayscale(0%); /* Restores the original color on hover */
+    cursor: pointer;
+}
